@@ -4,93 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico">
     <title>Soy Mauro</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-
 </head>
-
-<style>
-   
-</style>
-
 <body>
     <header>
-        <h3>💻 Mauro Gabriel Bécares</h3>
-    </header>
-    <section class="uno">
-        <div class="caja-central">
-            <div class="caja-cara">
-                <img class="cara" src="Foto-Perfil.png" alt="Maxi Programa">            
+        <a href="">
+            <div href="#fondoPrincipal" class="logo">
+                <img src="images\logo-portfolio.png" alt="logo-portfolio">
+                <h2 class="nombre">Mauro Gabriel Bécares</h2>
             </div>
-            <div class="caja-presentacion">
-                <div>    
-                    <h1>Hola ✍</h1>
-                    <p class="presentacion">
-                        Mi nombre es Mauro Gabriel Bécares, soy estudiante de la Tecnicatura Universitaria en Programación en la Universidad Tecnológica Nacional, Facultad Regional Rosario. Gracias a mis estudios, he adquirido conocimientos en C# y SQL, los cuales he obtenido mediante la realización de cursos.           
-                    </p>
+        </a>
+        <nav>
+            <a href="#sobre-mi" class="nav-link">Sobre mi</a>
+            <a href="#aptitudes" class="nav-link">Aptitudes</a>
+            <a href="#proyectos" class="nav-link">Mis proyectos</a>
+            <a href="#contacto" class="nav-link">Contactos</a>
+        </nav>
+    </header>
+    <section class="fondoPrincipal" id="fondoPrincipal">
+        <div class="cajaPrincipal" style="height: 85vh">
+            <div class="cajaContenedora1">
+                <img src="images/Foto-Perfil.jpeg" alt="Foto-Perfil">
+            </div>
+            <span class="titulo">
+                <h1>Programador .NET</h1>
+            </span>
+        </div>
+    </section>
+    <section class="sobreMi" id="sobre-mi">
+        <div class="cajaPrincipal" style="height: 100vh">
+            <div class="cajaContenedora2">
+                <h2>Sobre Mi</h2>
+                <hr>
+                <p>Mi nombre es Mauro Gabriel Bécares, soy estudiante de la Tecnicatura Universitaria en Programación 
+                    en la Universidad Tecnológica Nacional, 
+                    Facultad Regional Rosario. Gracias a mis estudios, he adquirido conocimientos en C#, SQL, C, Arduino, HTML, CSS y JS
+                    los cuales he obtenido mediante la realización de cursos y la universidad.
+                </p>
+                <p>
+                    Trabajé como Administrativo en un Operador Mayorista de Viajes, donde obtuve 
+                    conocimientos sobre el manejo de sistemas utilizados en el rubro. Sin embargo, mi deseo es poder trabajar 
+                    en el ámbito de la Programación, ya que desde que lo descubrí, me ha apasionado. Continúo dedicando todo mi 
+                    esfuerzo tanto en la universidad como en el aprendizaje de la plataforma .NET.
+                </p>
+            </div>
+        </div>    
+    </section>
+    <section class="aptitudes" id="aptitudes">
+        <div class="cajaPrincipal" style="height: 105vh;">
+            <div class="cajaContenedora3">
+                <h2>Aptitudes</h2>
+                <hr>
+                <p style="margin-left: 15%;">Estas son algunas de las tecnologías de las que tengo conocimientos.</p>
+                <div class="tech-list" style="margin-left: 335px; margin-right: 320px;">
+                    <img src="https://www.horuss.com.mx/wp-content/uploads/2019/04/c.png" class="tech" alt="">
+                    <img src="https://img.icons8.com/color/480/microsoft-sql-server.png" class="tech" alt="">
+                    <img src="https://images.vexels.com/media/users/3/166179/isolated/lists/b83d6b47a9502dfaf535087627a8bf96-icono-del-lenguaje-de-programacion-c.png" class="tech" alt="">
+                </div>
+                <div class="tech-list">
+                    <img src="https://logos-marcas.com/wp-content/uploads/2022/01/NET-Framework-Logo.png" class="tech" alt="">
+                    <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png" class="tech" alt="">
+                    <img src="https://logodownload.org/wp-content/uploads/2019/03/arduino-logo.png" class="tech" alt="">
+                </div>
+                <h2 class="subTitulos">Estudios</h2>
+                <ul>
+                    <li>Tecnicatura Universitaria en Programacion: UTN FRRO - En Curso 🕓 - <a href="https://dpec.frro.utn.edu.ar/carrera.php?idCarrera=21"><u>Ver</u></a></li>
+                    <li>Curso de Fundamentos de la Programación Nivel Universidad - Terminado ✅ - <a href="https://maxiprograma.com/seh"><u>Ver</u></a></li>
+                    <li>Curso de Programación con C# Nivel 1 [Desde Cero] - Terminado ✅ - <a href="https://drive.google.com/file/d/11T6aTLJ3YC6ft7ZEmyf_0qLyASu_lLHE/view?usp=sharing"><u>Ver Certificado</u></a></li>
+                    <li>Curso de Programación con C# Nivel 2: POO + .NET + SQL - Terminado ✅ - <a href="https://drive.google.com/file/d/1kK_UmLDpuHMvBf0uN1ZU6QeAHgtWylaq/view?usp=sharing"><u>Ver Certificado</u></a></li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <div class="cajaPrincipal" style="height: 105vh;">
+            <div class="cajaContenedora3" style="width: 1500px;">
+                <h2>Mis Proyectos</h2>
+                <hr>
+                <div class="cartas">
+                    <h2 class="subTitulos2">Gestion de veterinaria</h2>
+                    <img src="images\proyecto1.png" alt="">
+                    <p>Se trata de un programa que permite administrar como también gestionar una veterinaria desde el punto de vista del vendedor y el cliente puede ingresar para realizar pedidos de combos.</p>
+                    <a href="https://github.com/MauroGBecares/Autoservicio-Veterinaria"><u>Ver</u></a>
+                </div>
+                <div class="cartas">
+                    <h2 class="subTitulos2">Formulario con catalogo de discos</h2>
+                    <img src="images\proyecto2.png" alt="">
+                    <p>La app contiene un formulario para ingresar datos como también contiene listado de discos con conexión a DB en el cual se puede agregar, quitar y modificar los mismos.</p>
+                    <a href="https://github.com/MauroGBecares/ProyectoDiscos"><u>Ver</u></a>
+                </div>
+                <div class="cartas">
+                    <h2 class="subTitulos2">Listado de Artículos</h2>
+                    <img src="images\proyecto3.png" alt="">
+                    <p>El proyecto presenta un listado de artículos con conexión a DB que contiene distintas validaciones como también filtros. Además, se puede agregar, modificar y quitar productos.</p>
+                    <a href="https://github.com/MauroGBecares/TPFinalNivel2_Becares"><u>Ver</u></a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="dos">
-        <h2>Sobre mí</h2>
-        <p>
-            Actualmente, trabajo como Administrativo en un Operador Mayorista de Viajes, donde obtuve conocimientos sobre el manejo de sistemas utilizados en el rubro. Sin embargo, mi deseo es poder trabajar en el ámbito de la Programación, ya que desde que lo descubrí, me ha apasionado. Continúo dedicando todo mi esfuerzo tanto en la universidad como en el aprendizaje de la plataforma .NET.
-        </p>
-        <h2>Aptitudes</h2>
-        <p>
-            Estas son algunas de las tecnologías de las que tengo conocimientos.
-        </p>
-        <div class="aptitudes">
-            <div class="tech-list">
-                <img src="https://www.horuss.com.mx/wp-content/uploads/2019/04/c.png" class="tech" alt="">
-                <img src="https://e7.pngegg.com/pngimages/105/481/png-clipart-net-framework-software-framework-programmer-computing-platform-microsoft-corporation-7s-framework-example-blue-text.png" class="tech" alt="">
-                <img src="https://img.icons8.com/color/480/microsoft-sql-server.png" class="tech" alt="">
-            </div>
-        </div>
-        <h2>Estudios</h2>
-        <ul>
-            <li>Tecnicatura Universitaria en Programacion: UTN FRRO - En Curso 🕓</li>
-            <li>Curso de Fundamentos de la Programación Nivel Universidad - Terminado ✅ - <a href="maxiprograma.com/seh">Ver</a></li>
-            <li>Curso de Programación con C# Nivel 1 [Desde Cero] - Terminado ✅</li>
-            <li>Curso de Programación con C# Nivel 2: POO + .NET + SQL - Terminado ✅</li>
-        </ul>
-    </section>
-    <section class="tres">
-        <h2>Mis Proyectos</h2>
-        <div class="proyectos">
-            <div class="card">
-                <p style="font-size: 20px; font-weight: bold;">Formulario con catalogo de discos</p> 
-                <p>El proyecto tiene para llenar formulario como también contiene listado de discos con conexión a DB</p><a href="https://github.com/MauroGBecares/ProyectoDiscos">Ver</a>
-            </div>
-            <div class="card">
-                <p style="font-size: 20px; font-weight: bold;">Listado de Artículos</p> 
-                <p>El proyecto presenta un listado de artículos de con conexión a DB que contiene distintas validaciones como también filtros</p> <a href="https://github.com/MauroGBecares/TPFinalNivel2_Becares">Ver</a>
-            </div>
-        </div>
-    </section>
-    <footer>
+    <footer id="contacto">
         <h2>Contactos</h2>
-            <div class="contacto">
-                <a href="https://www.linkedin.com/in/mauro-b%C3%A9cares-b4a145253/" target="_blank">
-                    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
-                </a>
-                <a href="https://github.com/MauroGBecares" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
-                </a>
-                <a href="https://drive.google.com/file/d/1k1ceaSjuDHCpxyOvk9D8mp9g3tGYbRqn/view?usp=sharing" target="_blank">
-                    <img src="https://static.vecteezy.com/system/resources/previews/014/528/281/non_2x/headhunter-cv-mail-icon-outline-style-vector.jpg" class="red-social" alt="">
-                </a>
+        <div class="formulario">
+            <form action="https://formsubmit.co/maurobecares26@gmail.com" method="POST">
+                <div class="partesForm">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="partesForm">
+                    <label for="email">Correo:</label>
+                    <input type="email" name="email">
+                </div>
                 
+                <div class="partesForm">
+                    <label for="subject">Asunto:</label>
+                    <input type="text" name="subject">
+                </div>
+                <div class="partesFormComments">
+                    <label for="comments">Comentarios</label>
+                </div>
+                <div class="partesFormComments">
+                    <textarea name="comments" cols="15" rows="5"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="https://maurogbecares.github.io/portfolio/"> 
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+        <div class="lineaRedes">
+            <div class="ladoIzquierdo">
+                <h2 class="subTitulos2">Ubicación</h2>
+                <p>Rosario, Argentina</p>
             </div>
-            <div>
-                <p>Email: <a href="#enlace">maurobecares26@gmail.com</a></p>
+            <div class="ladoDerecho">
+                <h2 class="subTitulos2">Redes</h2>
+                <div class="redes">
+                    <a href="https://drive.google.com/file/d/1WZpBQmC3s2nzruI2bNmnqOQbiiOSlawF/view?usp=sharing" title="CV"><img src="svg/file.svg" alt="Red 1"></a>
+                    <a href="https://github.com/MauroGBecares" title="GitHub"><img src="svg/github.svg" alt="Red 2"></a>
+                    <a href="https://www.linkedin.com/in/mauro-b%C3%A9cares-b4a145253/" title="Linkedin"><img src="svg/linkedin.svg" alt="Red 3"></a>
+                </div>
             </div>
+        </div>
+        <p style="text-align: center; font-size: 15px; margin-top: 5px;">Copyright - All right reserved © 2023</p>
     </footer>
 </body>
 </html>

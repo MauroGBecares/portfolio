@@ -1,166 +1,338 @@
-body{
+ body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-header{
-    height: 65px;
-    background-color: #2660cc;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding-left: 25px;
-}
-.cara{
-    border-radius: 600px;
-    height: 400px;
-}
-.uno{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: calc(100vh - 65px);
-    background-color: #303030;
-    color: white;
-    /* padding-top: 10%; */
-}
-.caja-central{
-    margin-top: 10%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 50%;
-}
-.caja-cara{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    background-color: #424242;
-}
-.caja-presentacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    background-color: #F2F2F2;
-    color: #303030;
-    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    background-color: black;
 }
 
-.dos{
-    background-color: #F2F2F2;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #303030;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.aptitudes{
-    width: 50%;
-}
-.tech-list{
+header{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    min-height: 70px;
+    background-color: yellow;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 95%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(156, 156, 156);
+}
+
+@media (max-width:700px)
+{
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+}
+.fondoPrincipal{
+    height: 995px;
+    background-image: url('images/fondo-principal.jpg');
+}
+
+.sobreMi{
+    margin-top: 5px;
+    height: 1000px;
+    background-color: rgba(236, 234, 234, 0.959);
+}
+    
+hr{
+    width: 70%;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+section h2{
+    margin-top: 20px;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+footer h2{
+    margin-top: 5px;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+
+.subTitulos{
+    font-size: 30px; 
+    text-decoration: underline; 
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.subTitulos2{
+    margin-bottom: 20px;
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+.cajaContenedora1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 6px black;
+    overflow: hidden;
+}
+  
+.titulo{
+    margin-left: 60px;
+    width: 210px;
+    height: 40px;
+    background-color: rgb(255, 251, 0);
+    border-radius: 10%;
+    border: 2px solid black;
+    box-shadow: 4px 4px 6px black;
+}
+
+.cajaContenedora1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+.cajaContenedora2{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 10%;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 4px 4px 6px black;
+}
+
+.cajaContenedora3{
+    width: 1300px;
+    height: 750px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 10%;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 4px 4px 6px black;
+}
+
+.cajaContenedora3 hr{
+    margin-top: 5px;
+}
+
+.cajaContenedora3 p{
+    text-align: center;
+    display: flex;
 }
 
 .tech{
     height: 90px;
 }
 
-.tres{
-    background-color: #303030;
-    height: 350px;
+.tech-list{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    color: #F2F2F2;
-}
-.proyectos{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-}
-.card{
-    text-align: center;
-    width: 30%;
-    border: solid #F2F2F2 1px;
-    border-radius: 10px;
-    padding: 10px;
-}
-.card img{
-    width: 100%;
-}
-.card a, footer a {
-    color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-.red-social{
-    height: 60px;
-    background-color: #F2F2F2;
+ul{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.cajaPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aptitudes{
+    margin-top: 5px;
+    height: 1000px;
+    background-color: rgb(190, 190, 190);
+}
+
+.proyectos{
+    margin-top: 5px;
+    height: 1000px;
+    background-color: rgb(165, 165, 165);
+}
+
+.cartas{
+    text-align: center;
+    width: 30%;
+    border: solid black 3px;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 45px;
+    min-height: 550px;
+    width: 400px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cartas img{
+    width: 100%;
+    height: 250px;
+}
+.cartas p{
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 17px;
+}
+p{
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 22px;
+} 
+u{
+    color: blue;
+}
+
+h1{
+    font-size: 21px;
+}
+section h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4px;
+    color: rgb(0, 0, 0);   
 }
 
 footer{
-    background-color: #424242;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    height: 700px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
     align-items: center;
-    color: #F2F2F2;
-    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-.contacto{
-    width: 15%;
+.formulario{
+    margin-top: 30px;
+}
+
+.partesForm{
+    margin-bottom: 20px;
+    margin-right: 72px;
+}
+
+.partesFormComments{
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    border: 3px solid blue;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid blue;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+.lineaRedes{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+    margin-top: 100px;
+    color: black;
+    height: 130px;
 }
 
-@media (max-width: 1000px) {
-    .caja-central{
-        width: 90%;
-        height: 70%;
-        flex-direction: column;
-    }
-    .caja-cara{
-        width: 100%;
-        height: 50%;
-    }
-    .caja-presentacion{
-        width: 100%;
-        height: 50%;
-        align-items: flex-start;
-    }
-    .aptitudes{
-        width: auto;
-    }
-    .dos{
-        height: auto;
-        padding: 0 10px 10px 10px;
+.ladoIzquierdo{
+    text-align: left;
+    margin: 0;
+    align-items: center;
+    margin-left: 25%;
+}
 
-    }
-    .tres{
-        height: auto;
-    }
-    .proyectos{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 20px;
-    }
-    .card{
-        width: 80%;
-        margin-top: 20px;
-    }
-    .red-social{
-        margin: 0 10px 0 10px;
-    }
+.ladoDerecho{
+    text-align: right;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+.redes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+  
+.redes img{
+    width: 40px;
+    height: 40px;
 }
