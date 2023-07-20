@@ -44,21 +44,6 @@ nav a{
 nav a:hover{
     color: rgb(156, 156, 156);
 }
-
-@media (max-width:700px)
-{
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
-}
-@media (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
-}
 .fondoPrincipal{
     height: 995px;
     background-image: url('images/fondo-principal.jpg');
@@ -78,7 +63,7 @@ hr{
 }
 
 section h2{
-    margin-top: 20px;
+    margin-top: 1%;
     align-items: center;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -106,9 +91,9 @@ footer h2{
 }
 
 .subTitulos2{
-    margin-bottom: 20px;
-    font-size: 20px; 
-    margin-top: 10px;
+    margin-bottom: 3%;
+    font-size: 100%;
+    margin-top: 3%;
 }
 
 .cajaContenedora1 {
@@ -142,18 +127,19 @@ footer h2{
   }
 
 .cajaContenedora2{
-    width: 900px;
-    height: 600px;
+    width: 45%;
+    height: 60%;
     background-color: rgb(0, 183, 255);
     border-radius: 10%;
     align-items: center;
     border: 2px solid black;
     box-shadow: 4px 4px 6px black;
+    padding: 40px;
 }
 
 .cajaContenedora3{
-    width: 1300px;
-    height: 750px;
+    width: 70%;
+    height: 75%;
     background-color: rgb(0, 183, 255);
     border-radius: 10%;
     align-items: center;
@@ -163,36 +149,34 @@ footer h2{
 
 .cajaContenedora3 hr{
     margin-top: 5px;
-}
+}   
 
 .cajaContenedora3 p{
     text-align: center;
-    display: flex;
 }
-
+.tech-list{
+    text-align: center;
+    padding: 10px;
+}
 .tech{
     height: 90px;
-}
-
-.tech-list{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 85px;
+    padding-inline: 5%;
 }
 
 ul{
-    margin-left: 5%;
+    margin-left: 10%;
     font-weight: bold;
     font-size: 22px;
     margin-top: 20px;
     text-align: justify;
+    padding: 15px;
 }
 .cajaPrincipal{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .aptitudes{
@@ -208,29 +192,25 @@ ul{
 }
 
 .cartas{
-    text-align: center;
-    width: 30%;
+    max-width: 26%;
+    height: 74%;
     border: solid black 3px;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-left: 45px;
-    min-height: 550px;
-    width: 400px;
+    justify-content: space-between;
+    margin-left: 4%;
     padding: 10px;
     display: inline-block;
     vertical-align: top;
 }
+.cartas a{
+    margin-left: 45%;
+}
 .cartas img{
     width: 100%;
-    height: 250px;
+    height: 40%;
 }
 .cartas p{
-    text-align: justify;
-    font-weight: bold;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 5px;
-    font-size: 17px;
+    font-size: 100%;
 }
 p{
     text-align: justify;
@@ -309,30 +289,152 @@ input[type="submit"]:hover {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(158, 158, 158);
-    margin-top: 100px;
+    margin-top: 80px;
     color: black;
     height: 130px;
 }
 
 .ladoIzquierdo{
     text-align: left;
-    margin: 0;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .ladoDerecho{
     text-align: right;
     margin-right: 25%;
-    margin-bottom: 20px;
 }
 .redes{
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: center;    
 }
   
 .redes img{
     width: 40px;
     height: 40px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 718px) {
+    .cartas{
+        width: 23%;
+    }
+    .cartas p{
+        font-size: 1%;
+    }
+    .cajaContenedora3{
+        width: 100%;
+    }
+    .cajaPrincipal{
+        width: 100%;
+        padding: 0px;
+    }
+    ul{
+        font-size: 90%;
+    }
+    .subTitulos{
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .subTitulos2{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .cajaPrincipal{
+        padding: 2%;
+    }
+       
+}
+@media (max-width: 1674px){
+    p{
+        font-size: 19px;
+    }
+    ul{
+        font-size: 19px;
+    }
+    .cartas p{
+        font-size: 80%;
+    }
+    .cartas{
+        margin-left: 3%;
+    }
+}
+@media (max-width: 1490px){
+    .cartas p{
+        font-size: 90%;
+    }
+    .cartas .subTitulos2{
+        font-size: 80%;
+    }
+    ul{
+        margin-left: 5%;
+        font-size: 110%;
+    }
+}
+@media (max-width: 1280px)
+{
+    p{
+        font-size: 100%;
+    }
+    ul{
+        font-size: 120%;
+    }
+    .cartas{
+        margin-left: 2%;
+    }
+    section h2{
+        font-size: 150%;
+    }
+    .subTitulos{
+        font-size: 140%;
+    }
+    .cartas .subTitulos2{
+        font-size: 70%;
+    }
+    .cartas img{
+        height: 180px;
+    }
+    .tech{
+        height: 70px;
+        width: 65px;
+    }
+    .cartas p{
+        font-size: 75%;
+    }
+}
+@media (max-width: 962px)
+{
+    .cartas{
+        margin-left: 1%;
+    }
+    p{
+        font-size: 90%;
+    }
+    body {
+        font-size: 14px;
+    }
+    header{
+          flex-direction: column;
+    }
+}
+@media (max-width: 840px){
+    .cajaContenedora3{
+        width: 80%;
+    }
+    .cajaContenedora2{
+        width: 70%;
+    }
 }
