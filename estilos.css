@@ -136,7 +136,7 @@ p {
     align-items: center;
     border: 2px solid black;
     box-shadow: 4px 4px 6px black;
-    margin-top: 15%;
+    margin-top: 11%;
     padding: 10px;
     margin-bottom: 30px;
 }
@@ -152,7 +152,7 @@ p {
 
 .contactos{
     margin-top: 5px;
-    height: 700px;
+    height: 730px;
     background-color: black;
 }
 
