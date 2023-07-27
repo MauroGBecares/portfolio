@@ -1,155 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soy Mauro</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-    <header>
-        <a href="">
-            <div href="#fondoPrincipal" class="logo">
-                <img src="images\logo-portfolio.png" alt="logo-portfolio">
-                <h2 class="nombre">Mauro Gabriel Bécares</h2>
-            </div>
-        </a>
-        <nav>
-            <a href="#sobre-mi" class="nav-link">Sobre mi</a>
-            <a href="#aptitudes" class="nav-link">Aptitudes</a>
-            <a href="#proyectos" class="nav-link">Mis proyectos</a>
-            <a href="#contacto" class="nav-link">Contactos</a>
-        </nav>
-    </header>
-    <section class="fondoPrincipal" id="fondoPrincipal">
-        <div class="cajaPrincipal" style="height: 85vh">
-            <div class="cajaContenedora1">
-                <img src="images/Foto-Perfil.jpeg" alt="Foto-Perfil">
-            </div>
-            <span class="titulo">
-                <h1>Programador .NET</h1>
-            </span>
-        </div>
-    </section>
-    <section class="sobreMi" id="sobre-mi">
-        <div class="cajaPrincipal" style="height: 100vh">
-            <div class="cajaContenedora2">
-                <h2>Sobre Mi</h2>
-                <hr>
-                <p>Mi nombre es Mauro Gabriel Bécares, soy estudiante de la Tecnicatura Universitaria en Programación 
-                    en la Universidad Tecnológica Nacional, 
-                    Facultad Regional Rosario. Gracias a mis estudios, he adquirido conocimientos en C#, SQL, C, Arduino, HTML, CSS y JS
-                    los cuales he obtenido mediante la realización de cursos y la universidad.
-                </p>
-                <p>
-                    Trabajé como Administrativo en un Operador Mayorista de Viajes, donde obtuve 
-                    conocimientos sobre el manejo de sistemas utilizados en el rubro. Sin embargo, mi deseo es poder trabajar 
-                    en el ámbito de la Programación, ya que desde que lo descubrí, me ha apasionado. Continúo dedicando todo mi 
-                    esfuerzo tanto en la universidad como en el aprendizaje de la plataforma .NET.
-                </p>
-            </div>
-        </div>    
-    </section>
-    <section class="aptitudes" id="aptitudes">
-        <div class="cajaPrincipal" style="height: 105vh;">
-            <div class="cajaContenedora3">
-                <h2>Aptitudes</h2>
-                <hr>
-                <p>Estas son algunas de las tecnologías de las que tengo conocimientos.</p>
-                <div class="tech-list">
-                    <img src="images/csharp-logo.png" class="tech" alt="">
-                    <img src="images/microsoft-sql-server-logo.png" class="tech" alt="">
-                    <img src="images/NET-Framework-Logo.jpg" class="tech" alt="">
-                </div>
-                <div class="tech-list">
-                    <img src="images/logo-html.png" class="tech" alt="">
-                    <img src="images/logo-css.png" class="tech" alt="">
-                    <img src="images/logo-js.png" class="tech" alt="">
-                </div>
-                <h2 class="subTitulos">Estudios</h2>
-                <ul>
-                    <li>Tecnicatura Universitaria en Programacion: UTN FRRO - En Curso 🕓 - <a href="https://dpec.frro.utn.edu.ar/carrera.php?idCarrera=21"><u>Ver</u></a></li>
-                    <li>Curso de Fundamentos de la Programación Nivel Universidad - Terminado ✅ - <a href="https://maxiprograma.com/seh"><u>Ver</u></a></li>
-                    <li>Curso de Programación con C# Nivel 1 [Desde Cero] - Terminado ✅ - <a href="https://drive.google.com/file/d/11T6aTLJ3YC6ft7ZEmyf_0qLyASu_lLHE/view?usp=sharing"><u>Ver</u></a></li>
-                    <li>Curso de Programación con C# Nivel 2: POO + .NET + SQL - Terminado ✅ - <a href="https://drive.google.com/file/d/1kK_UmLDpuHMvBf0uN1ZU6QeAHgtWylaq/view?usp=sharing"><u>Ver</u></a></li></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="proyectos" id="proyectos">
-        <div class="cajaPrincipal" style="height: 105vh;">
-            <div class="cajaContenedora3">
-                <h2>Mis Proyectos</h2>
-                <hr>
-                <div class="cartas">
-                    <h2 class="subTitulos2">Gestion de veterinaria</h2>
-                    <img src="images\proyecto1.png" alt="">
-                    <p>Se trata de un programa que permite administrar como también gestionar una veterinaria desde el punto de vista del vendedor y el cliente puede ingresar para realizar pedidos de combos.</p>
-                    <a href="https://github.com/MauroGBecares/Autoservicio-Veterinaria"><u>Ver</u></a>
-                </div>
-                <div class="cartas">
-                    <h2 class="subTitulos2">Formulario con catalogo de discos</h2>
-                    <img src="images\proyecto2.png" alt="">
-                    <p>La app contiene un formulario para ingresar datos como también contiene listado de discos con conexión a DB en el cual se puede agregar, quitar y modificar los mismos.</p>
-                    <a href="https://github.com/MauroGBecares/ProyectoDiscos"><u>Ver</u></a>
-                </div>
-                <div class="cartas">
-                    <h2 class="subTitulos2">Listado de Artículos</h2>
-                    <img src="images\proyecto3.png" alt="">
-                    <p>El proyecto presenta un listado de artículos con conexión a DB que contiene distintas validaciones como también filtros. Además, se puede agregar, modificar y quitar productos.</p>
-                    <a href="https://github.com/MauroGBecares/TPFinalNivel2_Becares"><u>Ver</u></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="contacto">
-        <h2>Contactos</h2>
-        <div class="formulario">
-            <form action="https://formsubmit.co/maurobecares26@gmail.com" method="POST">
-                <div class="partesForm">
-                    <label for="Nombre">Nombre:</label>
-                    <input type="text" name="name">
-                </div>
-                <div class="partesForm">
-                    <label for="email">Correo:</label>
-                    <input type="email" name="email">
-                </div>
-                
-                <div class="partesForm">
-                    <label for="subject">Asunto:</label>
-                    <input type="text" name="subject">
-                </div>
-                <div class="partesFormComments">
-                    <label for="comments">Comentarios</label>
-                </div>
-                <div class="partesFormComments">
-                    <textarea name="comments" cols="15" rows="5"></textarea>
-                </div>
 
-                <input type="submit" value="Enviar">
-                <input type="hidden" name="_next" value="https://maurogbecares.github.io/portfolio/"> 
-                <input type="hidden" name="_captcha" value="false">
-            </form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Soy Mauro</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning navbar-warning headerNav">
+    <div class="container-fluid">
+      <a class="navbar-brand logoPortfolio" href="#fondoPrincipal">
+        <img src="images/logo-portfolio.png" alt="Logo" width="27" height="27" class="d-inline-block align-text-top">
+        Mauro Gabriel Bécares
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#aptitudes">Aptitudes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#proyectos">Mis proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contactos">Contactos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid text-center fondoPrincipal" id="fondoPrincipal">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-lg-4 d-flex justify-content-center">
+        <div class="contenedorFoto"></div>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="row mt-4">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center mx-auto">
+          <div class="contenedorTitulo">
+            <h3 style="font-size: 20px; font-weight: bold; margin-top: 7px;">Programador .NET</h3>
+          </div>
         </div>
-        <div class="lineaRedes">
-            <div class="ladoIzquierdo">
-                <h2 class="subTitulos2">Ubicación</h2>
-                <p>Rosario, Argentina</p>
-            </div>
-            <div class="ladoDerecho">
-                <h2 class="subTitulos2">Redes</h2>
-                <div class="redes">
-                    <a href="https://drive.google.com/file/d/1WZpBQmC3s2nzruI2bNmnqOQbiiOSlawF/view?usp=sharing" title="CV"><img src="svg/file.svg" alt="Red 1"></a>
-                    <a href="https://github.com/MauroGBecares" title="GitHub"><img src="svg/github.svg" alt="Red 2"></a>
-                    <a href="https://www.linkedin.com/in/mauro-b%C3%A9cares-b4a145253/" title="Linkedin"><img src="svg/linkedin.svg" alt="Red 3"></a>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center sobreMi" id="sobreMi">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-xl-8 col-md-8 d-flex justify-content-center">
+        <div class="contenedorSobreMi">
+          <h2>Sobre Mi</h2>
+          <hr>
+          <p>Mi nombre es Mauro Gabriel Bécares, y actualmente soy estudiante de la Tecnicatura Universitaria en
+            Programación en la Universidad Tecnológica Nacional,
+            Facultad Regional Rosario. Gracias a mis estudios, he adquirido conocimientos en .NET Framework y ASP.NET
+            utilizando el lenguaje C#.
+            Además, cuento con habilidades en HTML, CSS, JS, Bootstrap, SQL Server, C y Arduino,
+            las cuales he desarrollado a través de cursos y mi formación en la universidad.
+          </p>
+          <p>
+            Anteriormente, trabajé como Administrativo en un Operador Mayorista de Viajes, donde obtuve
+            conocimientos sobre el manejo de sistemas utilizados en el rubro. Sin embargo, mi deseo es poder trabajar
+            en el ámbito de la Programación, ya que desde que lo descubrí, me ha apasionado. Continúo dedicando todo mi
+            esfuerzo tanto en la universidad como en el aprendizaje de la plataforma .NET.
+          </p>
         </div>
-        <p style="text-align: center; font-size: 15px; margin-top: 5px;">Copyright - All right reserved © 2023</p>
-    </footer>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <div class="container-fluid text-center aptitudes" id="aptitudes">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-xl-8 d-flex justify-content-center">
+        <div class="contenedorAptutudes">
+          <h2>Aptitudes</h2>
+          <hr>
+          <p>Estas son algunas de las tecnologías de las que tengo conocimientos</p>
+          <div>
+            <img src="images/csharp-logo.png" class="tech" alt="">
+            <img src="images/NET-Framework-Logo.jpg" class="tech" alt="">
+            <img src="images/logo-asp.png" class="tech" alt="">
+            <img src="images/microsoft-sql-server-logo.png" class="tech" alt="">
+          </div>
+          <div>
+            <img src="images/logo-html.png" class="tech" alt="">
+            <img src="images/logo-css.png" class="tech" alt="">
+            <img src="images/logo-js.png" class="tech" alt="">
+            <img src="images/logo-bootstrap.png" class="tech" alt="">
+          </div>
+          <h2 class="subtitulo">Estudios</h2>
+          <div class="list-group listaEstudios">
+            <a href="https://dpec.frro.utn.edu.ar/carrera.php?idCarrera=21"
+              class="list-group-item list-group-item-action">Tecnicatura Universitaria en Programacion: UTN FRRO - En
+              Curso 🕓</a>
+            <a href="https://drive.google.com/file/d/11T6aTLJ3YC6ft7ZEmyf_0qLyASu_lLHE/view?usp=sharing"
+              class="list-group-item list-group-item-action">Curso de Programación con C# Nivel 1 [Desde Cero] -
+              Terminado ✅</a>
+            <a href="https://drive.google.com/file/d/1kK_UmLDpuHMvBf0uN1ZU6QeAHgtWylaq/view?usp=sharing"
+              class="list-group-item list-group-item-action">Curso de Programación con C# Nivel 2: POO + .NET + SQL -
+              Terminado ✅</a>
+            <a href="https://drive.google.com/file/d/16sTkD0qaHWPNmcjN9LqRN0fUG2PsitXz/view"
+              class="list-group-item list-group-item-action">Curso de Programación con C# Nivel 3 ASP.NET WebForms - En
+              Curso 🕓</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+  <div class="container-fluid text-center proyectos" id="proyectos">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-xl-8">
+        <div class="contenedorProyectos">
+          <h2>Mis Proyectos</h2>
+          <hr>
+          <div class="card-group">
+            <div class="card">
+              <img src="images/proyecto1.png" class="card-img-top imgCarta" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gestion de veterinaria</h5>
+                <p class="card-text">Se trata de un programa que permite administrar como también gestionar una
+                  veterinaria desde el punto de vista del vendedor y el cliente puede ingresar para realizar pedidos de
+                  combos.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"><a href="https://github.com/MauroGBecares/Autoservicio-Veterinaria"><button type="button" class="btn btn-outline-primary">Ver</button></a></button></small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/proyecto2.png" class="card-img-top imgCarta" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Formulario con catalogo de discos</h5>
+                <p class="card-text">La app contiene un formulario para ingresar datos como también contiene listado de
+                  discos con conexión a DB en el cual se puede agregar, quitar y modificar los mismos.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"><a href="https://github.com/MauroGBecares/ProyectoDiscos"><button type="button" class="btn btn-outline-primary">Ver</button></a></button></small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/proyecto3.png" class="card-img-top imgCarta" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Listado de Artículos</h5>
+                <p class="card-text">El proyecto presenta un listado de artículos con conexión a DB que contiene
+                  distintas validaciones como también filtros. Además, se puede agregar, modificar y quitar productos.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"><a href="https://github.com/MauroGBecares/TPFinalNivel2_Becares"><button type="button" class="btn btn-outline-primary">Ver</button></a></button></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <div class="container-fluid text-center contactos" id="contactos">
+    <div class="row">
+      <div class="col-sm-4"></div>
+        <form class="col-xl-4" action="https://formsubmit.co/maurobecares26@gmail.com" method="POST">
+          <h2>Contactos</h2>
+          <div class="mb-3">
+            <label for="nombre" class="form-label text-white">Nombre</label>
+            <input type="text" name="name" class="form-control" id="nombre">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-white">Email</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="asunto" class="form-label text-white">Asunto</label>
+            <input type="text" name="subject" class="form-control" id="asunto">
+          </div>
+          <div class="mb-3">
+            <label for="comentarios" class="form-label text-white">Comentarios</label>
+            <textarea class="form-control" name="comments" id="comentarios" rows="5"></textarea>
+          </div>
+          <input type="submit" class="btn btn-primary mt-3"></input>
+          <input type="hidden" name="_next" value="https://maurogbecares.github.io/portfolio/"> 
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+    <div class="row linea">
+      <div class="col-3"></div>
+      <div class="col-md-3 ladoIzquierdo">
+        <p class="subtitulo2">Ubicación</p>
+        <p>Rosario, Argentina</p>
+      </div>
+      <div class="col-md-3 ladoDerecho">
+        <p class="subtitulo2">Redes</p>
+        <a href="https://drive.google.com/file/d/1WZpBQmC3s2nzruI2bNmnqOQbiiOSlawF/view?usp=sharing" title="CV"><img src="svg/file.svg" alt="Red 1"></a>
+        <a href="https://github.com/MauroGBecares" title="GitHub"><img src="svg/github.svg" alt="Red 2"></a>
+        <a href="https://www.linkedin.com/in/mauro-b%C3%A9cares-b4a145253/" title="Linkedin"><img src="svg/linkedin.svg" alt="Red 3"></a>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  <!-- Bootstrap Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
