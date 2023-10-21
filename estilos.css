@@ -148,6 +148,13 @@ p {
     background-color: rgb(23, 69, 196);
 }
 
+.card-title{
+    color: white;
+    text-decoration: underline;
+    text-decoration-skip: spaces; 
+    text-underline-position: under;
+}
+
 .imgCarta {
     height: 250px;
 }
